@@ -1,0 +1,5 @@
+services:
+  localtunnel-server:
+    build: .
+    ports:
+      - "1234:1234"
